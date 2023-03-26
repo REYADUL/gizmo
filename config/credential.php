@@ -1,6 +1,6 @@
 <?php
-define('USERNAME','root');
-define('PASSWORD','');
+define('USERNAME','epiz_33877470');
+define('PASSWORD','bMHwCfiDhW');
 
 
 

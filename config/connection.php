@@ -1,11 +1,11 @@
 <?php
 require 'credential.php';
 function connect_mysql(){
-    $host ='localhost';
-    $db='gizmo';
+    $host ='sql309.epizy.com';
+    $db='epiz_33877470_gizmo';
     $user=USERNAME;
     $pass=PASSWORD;
-    // $charset='utf8mb4';
+    
 
 
 $dsn="mysql:dbname=$db;host=$host;";

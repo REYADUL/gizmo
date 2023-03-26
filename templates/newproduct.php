@@ -1,6 +1,6 @@
 <?php
     
-     $connection = new mysqli('localhost','root','','gizmo');
+     $connection = new mysqli('sql309.epizy.com','epiz_33877470','bMHwCfiDhW','epiz_33877470_gizmo');
      if(! $connection){
         var_dump($connection) ;
         }
@@ -45,7 +45,12 @@
 ?>
 
 
-<?=admin_header('new-product')?>
+
+<?php 
+    include '../models/functions.php';
+    admin_header('newproduct');
+    
+?>
 <div class="container">
         <div class="row">
             <div class="col-4">

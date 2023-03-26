@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-4" style="margin-top: 50px;">
 
-                    <form action="login.php" method="POST">
+                    <form action="../templates/login.php" method="POST">
                         <div class="mt-2">
                             <label class="form-label" for="email">
                                 Email
@@ -97,13 +97,9 @@
                     <h1 id="siteName">GIZMO</h1>
                     <nav>
                         
-                        <a href="index.php?page=products">Products</a>
+                        <a href="../index.php?page=products">Products</a>
                     </nav>
-                    <div class="link-icons">
-                        <a href="logout.php">
-                        <i class="fa-solid fa-user"></i>
-                        </a>
-                    </div>
+                    
                 </div>
             </header>
 

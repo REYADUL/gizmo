@@ -1,7 +1,7 @@
 <?php
     // session_start();
 
-    $connection = new mysqli('localhost','root','','userdb');
+    $connection = new mysqli('sql309.epizy.com','epiz_33877470','bMHwCfiDhW','epiz_33877470_gizmo');
     if(! $connection){
         echo 'not connected with database';
          var_dump($connection) ;
@@ -35,6 +35,8 @@
 ?>
 
 
-<?=template_header('Login')?>
-<?=login_form()?>
-<?=template_footer()?>
+<?php 
+    template_header('Login');
+    login_form();
+    template_footer()
+?>

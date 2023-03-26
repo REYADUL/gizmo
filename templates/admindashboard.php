@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $connection = new mysqli('localhost','root','','gizmo');
+    $connection = new mysqli('sql309.epizy.com','epiz_33877470','bMHwCfiDhW','epiz_33877470_gizmo');
     
     if(! $connection){
         echo var_dump($connection) ;
@@ -37,17 +37,20 @@
 <body>
     <header>
                 <div class="content-wrapper">
-                    <h1 id="siteName">GIZMO</h1>
+                    <a href="../index.php">
+                        <h1 id="siteName">GIZMO</h1>
+                    </a>
+                   
                     <nav>
                         
-                        <a href="index.php?page=products">Products</a>
-                        <a href="index.php?page=newproduct">New Products</a>
+                        <a href="../index.php?page=products">Products</a>
+                        <a href="newproduct.php">New Products</a>
                     </nav>
-                    <div class="link-icons">
+                    <!-- <div class="link-icons">
                         <a href="logout.php">
                         <i class="fa-solid fa-user"></i>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
     </header>
     <div class="container">
